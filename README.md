@@ -55,6 +55,9 @@ Similar to blocking an IP, this sample used a domain name for C2 communication. 
 -   **Detection Method:** The malicious domain was added to a DNS filter/blocklist, preventing the workstation from resolving it to an IP address.
 -   **Flag:** `THM{4eca9e2f61a19ecd5df34c788e7dce16}`
 
+-   <img width="1318" height="609" alt="Summit tryhackme Firewall Malware 1" src="https://github.com/user-attachments/assets/e08b0570-0c33-420f-a539-240d4c6e2199" />
+
+
 ### 4️⃣ Sample 4: Attacking the Defenses (Registry Modifications)
 Here, the adversary moved from simple network indicators to **behavior (TTPs)**. The malware attempted to disable Windows Defender's real-time monitoring by modifying a specific registry key. This is a common defense evasion technique.
 
