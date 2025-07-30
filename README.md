@@ -72,6 +72,9 @@ This sample established persistence and beaconed out to the C2 server at regular
 -   **Detection Method:** A log-based Sigma rule was created to detect a process making repeated outbound network connections over a specific time interval. This is a powerful TTP-based detection.
 -   **Flag:** `THM{46b21c4410e47dc5729ceadef0fc722e}`
 
+-   <img width="607" height="587" alt="Summit tryhackme Network Connections Malware 1" src="https://github.com/user-attachments/assets/9d5d4792-f915-4c08-a7e0-068d1155de90" />
+
+
 ### 6️⃣ Sample 6: Staging for Exfiltration (File & Process Creation)
 The final sample, "Sphinx," performed a classic data staging operation. It used the command prompt (`cmd.exe`) to gather data and write it to a log file in the temporary directory before exfiltration.
 
