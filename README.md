@@ -10,7 +10,7 @@ The entire exercise is structured around the **Pyramid of Pain**, progressively 
 
 ---
 
-### 🧠 Skills Demonstrated:
+ 🧠 Skills Demonstrated:
 -   🔎 **Malware Analysis:** Deconstructing malware behavior in a simulated environment.
 -   🛡️ **Detection Engineering:** Writing custom detection rules based on observed activity.
 -   🔥 **Firewall & DNS Management:** Blocking malicious network indicators (IPs, Domains).
@@ -21,7 +21,7 @@ The entire exercise is structured around the **Pyramid of Pain**, progressively 
 
 ---
 
-### 🔧 Tools & Concepts:
+🔧 Tools & Concepts:
 -   **Pyramid of Pain:** Guiding framework for prioritizing indicators.
 -   **Sigma Rules:** Creating vendor-agnostic detection logic.
 -   **Signature-based Detection:** Blocking known-bad hashes and network IOCs.
@@ -48,7 +48,7 @@ The first sample was a known malicious executable. This represents the lowest le
 -   **Flag:** `THM{f3cbf08151a11a6a331db9c6cf5f4fe4}`
 
 <img width="1314" height="587" alt="Summit tryhackme Hashing Malware 1" src="https://github.com/user-attachments/assets/51ff28f9-f86a-43d9-a00f-2f2397e3cc39" />
-### 3️⃣ Sample 3: A Step Up (Domain Names)
+ 3️⃣ Sample 3: A Step Up (Domain Names)
 Similar to blocking an IP, this sample used a domain name for C2 communication. Blocking domains is slightly more effective, as an attacker might cycle through multiple IPs behind a single domain.
 
 -   **Threat Type:** DNS-based C2 Communication (`sample3.exe`)
